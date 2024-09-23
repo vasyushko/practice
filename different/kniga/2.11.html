@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <script>
+    'use strict';
+     let message = prompt ('Кто там?', '');
+     
+     if (message === null || message === '') {
+      alert ('Отменено');
+    }  else if (message == 'Админ') {
+        let login = prompt ('Логин?', '');
+        if (login === null || login === '') {
+        alert ('Отменено'); 
+        } else if  (login == 'Я главный') {
+        alert ('Здравствуйте!');
+        } else {
+        alert ('Неверный пароль')
+        }
+    }
+      else {
+      alert ('Я вас не знаю');
+    }
+     
+    
+
+    
+    
+  </script>
+
+
+</body>
+
+</html>
