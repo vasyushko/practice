@@ -1,3 +1,3 @@
 let name;
 name = prompt('Как тебя зовут?', '');
-alert(`Тебя зовут ${name}!`);
+alert (`Тебя зовут ${name}!`);
