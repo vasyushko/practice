@@ -1,12 +1,8 @@
-let str = 'ViaGra';
+const str = 'ddd ViaGra dff';
 
 function checkSpam(str) {
-  let checkStr = str;
-  checkStr.toLowerCase();
-  if (checkStr.includes('viagra') || checkStr.includes(xxx)) {
-    return true;
-  }
-  return false;
+  const checkStr = str.toLowerCase();
+  return (checkStr.includes('viagra') || checkStr.includes('xxx'));
 }
 
-checkSpam(str);
+console.log(checkSpam(str));
